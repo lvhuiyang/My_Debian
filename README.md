@@ -1,6 +1,5 @@
 # Debian 安装与配置
 
-标签（空格分隔）：MyDebian
 
 ---硬件环境：<雷神G150S>　i7-4770MQ, 8G, GTX950M ,Intel Corporation Wireless 3160
 ##1、镜像安装
@@ -28,6 +27,7 @@ _ _ _ _ _ _ _ _
  - Intel 7265 WiFi Adapter
  - Intel 3160 WiFi Adapter
 　　
+
 ####进行安装
 
 ####【Debian 8 "Jessie"的安装】
