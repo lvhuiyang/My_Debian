@@ -130,6 +130,7 @@ deb http://http.debian.net/debian/ wheezy main contrib non-free
  - PCI: 8086:423B Intel Corporation PRO/Wireless 5350 AGN [Echo Peak] Network Connection
  - PCI: 8086:423C Intel Corporation WiMAX/WiFi Link 5150
  - PCI: 8086:423D Intel Corporation WiMAX/WiFi Link 5150
+
 ##３、sudo的安装
 　　网络安装的镜像安完的debian是什么都没有的，包括gcc和sudo。使用终端命令sudo ** 会出现 sudo 不是命令的提示，需要手动下载安装，安装前需要先更新源，这里以163的镜像为例：
 ```
