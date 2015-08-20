@@ -29,6 +29,7 @@ _ _ _ _ _ _ _ _
  - Intel 3160 WiFi Adapter
 　　
 ####进行安装
+
 ####【Debian 8 "Jessie"的安装】
 1）在源列表中添加"non-free"源：
 ```
@@ -182,7 +183,7 @@ username    ALL=(ALL)     ALL
 :wq
 chmod 400 /etc/sudoers
 ```
-##3、连接VPN
+##4、连接VPN
 Debian没有自带的vpn连接，需要下载安装pptp-linux和network-manager-pptp-gnome即可正常使用。
 ```
 sudo apt-get install pptp-linux
