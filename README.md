@@ -183,10 +183,3 @@ username    ALL=(ALL)     ALL
 :wq
 chmod 400 /etc/sudoers
 ```
-##4、连接VPN
-Debian没有自带的vpn连接，需要下载安装pptp-linux和network-manager-pptp-gnome即可正常使用。
-```
-sudo apt-get install pptp-linux
-sudo apt-get install network-manager-pptp-gnome
-```
-重新启动电脑，大功告成。
