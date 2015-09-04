@@ -13,3 +13,5 @@ deb-src http://mirrors.163.com/debian-security/ jessie/updates main non-free con
 ```
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 ```
+然后手动双击安装即可。
+##3. oh my zsh
