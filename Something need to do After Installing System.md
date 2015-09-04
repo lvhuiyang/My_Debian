@@ -59,9 +59,10 @@ cp ~/.zshrc ~/.zshrc.orig
 ```
 cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 ```
-更改原来的shell
+更改原来的shell，将zsh设置为默认shell
 ```
 chsh -s /bin/zsh
 ```
-###更改主题
+重新启动电脑，大功告成
+###如需更改主题
 编辑配置文件```sudo vim ~/.zshrc``` 修改theme即可，theme可到官网查找
