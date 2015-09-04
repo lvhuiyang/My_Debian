@@ -32,3 +32,36 @@ sudo apt-get install driftnet
 5.Start ->> Start Sniffing 开始攻击
 6.终端sudo drifinet 启动图片捕捉工具
 ```
+##4. 安装配置oh my zsh
+两种途径下载并安装zsh
+第一种，直接用包管理器下载安装
+```
+sudo apt-get install zsh
+```
+第二种，github上下载安装
+```
+curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | ZSH=~/.dotfiles/zsh sh
+```
+
+将文件库克隆到本地
+```
+git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+```
+先创建配置文件
+```
+touch ~/.zshrc
+```
+备份原文件（此部可省略）
+```
+cp ~/.zshrc ~/.zshrc.orig
+```
+创建新的配置文件
+```
+cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+```
+更改原来的shell
+```
+chsh -s /bin/zsh
+```
+###更改主题
+编辑配置文件```sudo vim ~/.zshrc``` 修改theme即可，theme可到官网查找
