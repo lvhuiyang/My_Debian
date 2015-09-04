@@ -23,10 +23,10 @@ sudo apt-get install ettercap-dbg
 ```
 sudo apt-get install driftnet
 ```
-操作过程
-1.Sniff ->> Unified Sniffing 选择网卡 ->>wlan0
-2.Hosts ->> Hosts list 列出列表  ->>Scan for hosts 扫描列表
-3.根据ip要攻击的对象为目标２　主路由器为目标１
-4.Mitm 选择攻击方式　->> ARP poisoning ->> 勾选地一个方框Sniff ...
-5.Start ->> Start Sniffing 开始攻击
-6.终端sudo drifinet 启动图片捕捉工具
+###操作过程
+####1.Sniff ->> Unified Sniffing 选择网卡 ->>wlan0
+####2.Hosts ->> Hosts list 列出列表  ->>Scan for hosts 扫描列表
+####3.根据ip要攻击的对象为目标２　主路由器为目标１
+####4.Mitm 选择攻击方式　->> ARP poisoning ->> 勾选地一个方框Sniff ...
+####5.Start ->> Start Sniffing 开始攻击
+####6.终端sudo drifinet 启动图片捕捉工具
