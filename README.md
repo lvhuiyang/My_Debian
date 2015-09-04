@@ -183,3 +183,8 @@ username    ALL=(ALL)     ALL
 :wq
 chmod 400 /etc/sudoers
 ```
+## 4. Install VPN
+```
+sudo apt-get install pptp-linux
+sudo apt-get install network-manager-pptp-gnome
+```
