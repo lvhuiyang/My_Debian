@@ -68,11 +68,11 @@ chsh -s /bin/zsh
 编辑配置文件```sudo vim ~/.zshrc``` 修改theme即可，theme可到官网查找
 ##5. grub引导修复
 双系统的情况下先装完linux再装Windows会出现win引导覆盖Linux的问题，实验室以及我的PC上都是双硬盘双系统，这样比较容易实现修复引导，下面说一下整体思路
-1.先装的是linux，装在硬盘0（此时硬盘1为空）
-2.BIOS设定第一启动项为硬盘0，这时正常启动linux（添加引导后有时不需要设定便能直接启动硬盘0）
-3.将Windows装在硬盘1，并添加引导。这时新添加的Windows引导会覆盖原linux，开机会直接启动硬盘1上的Windows
-4.Windows设定完毕后重启进入BIOS设置，将硬盘0重新设定为第一启动项
-5.重启后会进入linux的grub引导界面，此时并无windows选项
-6.linux终端输入命令```sudo update-grub```重新检测引导项，不出意外会检测到Windows并自动添加
-7.重启，grub会出现Windows选项，实现最终双硬盘双系统。
-（注意）此方法用于双硬盘双系统，单硬盘双系统推荐先装win再装linux以免折腾，若需要进入急救模式修改grub配置文件```sudo vim /boot/grub/grub.cfg```
+####1.先装的是linux，装在硬盘0（此时硬盘1为空）
+####2.BIOS设定第一启动项为硬盘0，这时正常启动linux（添加引导后有时不需要设定便能直接启动硬盘0）
+####3.将Windows装在硬盘1，并添加引导。这时新添加的Windows引导会覆盖原linux，开机会直接启动硬盘1上的Windows
+####4.Windows设定完毕后重启进入BIOS设置，将硬盘0重新设定为第一启动项
+####5.重启后会进入linux的grub引导界面，此时并无windows选项
+####6.linux终端输入命令```sudo update-grub```重新检测引导项，不出意外会检测到Windows并自动添加
+####7.重启，grub会出现Windows选项，实现最终双硬盘双系统。
+####（注意）此方法用于双硬盘双系统，单硬盘双系统推荐先装win再装linux以免折腾，若需要进入急救模式修改grub配置文件```sudo vim /boot/grub/grub.cfg```
